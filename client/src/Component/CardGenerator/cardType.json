@@ -1,0 +1,401 @@
+[[
+  {
+    "position": {
+      "height": 250,
+      "width": 361,
+      "x": 0,
+      "y": 64,
+      "z": 0,
+      "left": 0,
+      "top": 64,
+      "zIndex": 0,
+      "style": {
+        "width": 361,
+        "height": 250,
+        "top": 64,
+        "left": 0
+      }
+    },
+    "content": {
+      "type": "text",
+      "variable": "constant",
+      "style": {
+        "backgroundColor": "#0000ad"
+      },
+      "variableContent": {}
+    },
+    "name": "layer1Text"
+  },
+  {
+    "position": {
+      "height": 504,
+      "width": 361,
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "left": 0,
+      "top": 0,
+      "zIndex": 0,
+      "style": {
+        "width": 361,
+        "height": 504,
+        "top": 0,
+        "left": 0
+      }
+    },
+    "content": {
+      "type": "image",
+      "variable": "constant",
+      "style": {},
+      "variableContent": {},
+      "url": "https://cdn.discordapp.com/attachments/131878879420743681/911368275588448326/font.png"
+    },
+    "name": "layer2Image"
+  },
+  {
+    "position": {
+      "height": 504,
+      "width": 361,
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "left": 0,
+      "top": 0,
+      "zIndex": 0,
+      "style": {
+        "width": 361,
+        "height": 504,
+        "top": 0,
+        "left": 0
+      }
+    },
+    "content": {
+      "type": "image",
+      "variable": "constant",
+      "style": {},
+      "variableContent": {},
+      "url": "https://cdn.discordapp.com/attachments/131878879420743681/911368275928174602/green.png"
+    },
+    "name": "layer3Image"
+  },
+  {
+    "position": {
+      "height": 189,
+      "width": 265,
+      "x": 41,
+      "y": 87,
+      "z": 0,
+      "left": 41,
+      "top": 87,
+      "zIndex": 0,
+      "style": {
+        "width": 265,
+        "height": 189,
+        "top": 87,
+        "left": 41
+      }
+    },
+    "content": {
+      "type": "image",
+      "variable": "constant",
+      "style": {},
+      "variableContent": {},
+      "url": "data:image/jpeg;base64,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"
+    },
+    "name": "layer4Image"
+  },
+  {
+    "position": {
+      "height": 37,
+      "width": 202,
+      "x": 77,
+      "y": 20,
+      "z": 0,
+      "left": 77,
+      "top": 20,
+      "zIndex": 0,
+      "style": {
+        "width": 202,
+        "height": 37,
+        "top": 20,
+        "left": 77
+      }
+    },
+    "content": {
+      "type": "text",
+      "variable": "constant",
+      "style": {
+        "backgroundColor": "#c9b996",
+        "borderRadius": "16%",
+        "textAlign": "center",
+        "color": "#00400e",
+        "fontWeight": 700,
+        "fontSize": 27,
+        "textDecoration": "none",
+        "fontStyle": "italic",
+        "padding": "0em"
+      },
+      "variableContent": {},
+      "text": "Le Z"
+    },
+    "name": "layer5Text"
+  },
+  {
+    "position": {
+      "height": 504,
+      "width": 361,
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "left": 0,
+      "top": 0,
+      "zIndex": 0,
+      "style": {
+        "width": 361,
+        "height": 504,
+        "top": 0,
+        "left": 0
+      }
+    },
+    "content": {
+      "type": "image",
+      "variable": "constant",
+      "style": {},
+      "variableContent": {},
+      "url": "https://cdn.discordapp.com/attachments/131878879420743681/911368276548919297/rare.png"
+    },
+    "name": "layer6Image"
+  },
+  {
+    "position": {
+      "height": 126,
+      "width": 209,
+      "x": 77,
+      "y": 306,
+      "z": 0,
+      "left": 77,
+      "top": 306,
+      "zIndex": 0,
+      "style": {
+        "width": 209,
+        "height": 126,
+        "top": 306,
+        "left": 77
+      }
+    },
+    "content": {
+      "type": "text",
+      "variable": "constant",
+      "style": {
+        "textAlign": "left",
+        "color": "#082a00",
+        "fontWeight": 500,
+        "fontSize": 21
+      },
+      "variableContent": {},
+      "text": "Intégration :   change le prénom de ton adversaire."
+    },
+    "name": "layer8Text"
+  }
+],
+[
+    {
+      "position": {
+        "height": 250,
+        "width": 361,
+        "x": 0,
+        "y": 64,
+        "z": 0,
+        "left": 0,
+        "top": 64,
+        "zIndex": 0,
+        "style": {
+          "width": 361,
+          "height": 250,
+          "top": 64,
+          "left": 0
+        }
+      },
+      "content": {
+        "type": "text",
+        "variable": "constant",
+        "style": {
+          "backgroundColor": "#0000ad"
+        },
+        "variableContent": {}
+      },
+      "name": "layer0Text"
+    },
+    {
+      "position": {
+        "height": 504,
+        "width": 361,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "left": 0,
+        "top": 0,
+        "zIndex": 0,
+        "style": {
+          "width": 361,
+          "height": 504,
+          "top": 0,
+          "left": 0
+        }
+      },
+      "content": {
+        "type": "image",
+        "variable": "constant",
+        "style": {},
+        "variableContent": {},
+        "url": "https://cdn.discordapp.com/attachments/131878879420743681/911368275588448326/font.png"
+      },
+      "name": "layer2Image"
+    },
+    {
+      "position": {
+        "height": 504,
+        "width": 361,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "left": 0,
+        "top": 0,
+        "zIndex": 0,
+        "style": {
+          "width": 361,
+          "height": 504,
+          "top": 0,
+          "left": 0
+        }
+      },
+      "content": {
+        "type": "image",
+        "variable": "constant",
+        "style": {},
+        "variableContent": {},
+        "url": "https://cdn.discordapp.com/attachments/131878879420743681/911588273481191434/green.png"
+      },
+      "name": "layer3Image"
+    },
+    {
+      "position": {
+        "height": 189,
+        "width": 265,
+        "x": 41,
+        "y": 87,
+        "z": 0,
+        "left": 41,
+        "top": 87,
+        "zIndex": 0,
+        "style": {
+          "width": 265,
+          "height": 189,
+          "top": 87,
+          "left": 41
+        }
+      },
+      "content": {
+        "type": "image",
+        "variable": "constant",
+        "style": {},
+        "variableContent": {},
+        "url": "https://cdn.discordapp.com/attachments/131878879420743681/911588539240706048/lz_Z.png"
+      },
+      "name": "layer4Image"
+    },
+    {
+      "position": {
+        "height": 37,
+        "width": 202,
+        "x": 77,
+        "y": 20,
+        "z": 0,
+        "left": 77,
+        "top": 20,
+        "zIndex": 0,
+        "style": {
+          "width": 202,
+          "height": 37,
+          "top": 20,
+          "left": 77
+        }
+      },
+      "content": {
+        "type": "text",
+        "variable": "constant",
+        "style": {
+          "backgroundColor": "#c9b996",
+          "borderRadius": "16%",
+          "textAlign": "center",
+          "color": "#00400e",
+          "fontWeight": 700,
+          "fontSize": 27,
+          "textDecoration": "none",
+          "fontStyle": "italic",
+          "padding": "0em"
+        },
+        "variableContent": {},
+        "text": "Le Z"
+      },
+      "name": "layer5Text"
+    },
+    {
+      "position": {
+        "height": 504,
+        "width": 361,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "left": 0,
+        "top": 0,
+        "zIndex": 0,
+        "style": {
+          "width": 361,
+          "height": 504,
+          "top": 0,
+          "left": 0
+        }
+      },
+      "content": {
+        "type": "image",
+        "variable": "constant",
+        "style": {},
+        "variableContent": {},
+        "url": "https://cdn.discordapp.com/attachments/131878879420743681/911368276548919297/rare.png"
+      },
+      "name": "layer6Image"
+    },
+    {
+      "position": {
+        "height": 126,
+        "width": 209,
+        "x": 77,
+        "y": 306,
+        "z": 0,
+        "left": 77,
+        "top": 306,
+        "zIndex": 0,
+        "style": {
+          "width": 209,
+          "height": 126,
+          "top": 306,
+          "left": 77
+        }
+      },
+      "content": {
+        "type": "text",
+        "variable": "constant",
+        "style": {
+          "textAlign": "left",
+          "color": "#082a00",
+          "fontWeight": 500,
+          "fontSize": 21
+        },
+        "variableContent": {},
+        "text": "Intégration :   change le prénom de ton adversaire."
+      },
+      "name": "layer8Text"
+    }
+  ]
+]

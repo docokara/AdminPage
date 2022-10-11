@@ -1,0 +1,19 @@
+.leaderBoard-container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 200px;
+}
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+tr:nth-child(even) {
+  background: #25202B;
+}
+tr:nth-child(odd) {
+  background: #313437;
+}
+td {
+  text-align: center;
+}

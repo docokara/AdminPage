@@ -1,0 +1,16 @@
+  .num,
+  .name {
+    width: 50%;
+  }
+  .num,
+  .name > div:nth-child(odd) {
+    background-color: #35393b;
+  }
+  .name,
+  .num > div:nth-child(even) {
+    background-color: #1d2021;
+  }
+  span {
+    margin: 4px;
+  }
+  

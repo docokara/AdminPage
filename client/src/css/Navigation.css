@@ -1,0 +1,26 @@
+.Navigation{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    height: 7em;
+    justify-content: flex-start;
+    align-items: center;
+    background: #333333;
+}
+.Navigation li{
+    height: 100%;
+    color: #7C7D7D;
+    padding: .3em;
+    font-size: 1.7em;
+    margin: 1em;
+}
+a.current{
+    border-bottom: .2em solid #66A2FF;
+}
+a.current li{
+    color : #66A2FF;
+}
+.Gacha-logo{
+    height: 5em;
+    margin: 2em;
+}

@@ -1,0 +1,20 @@
+.manualSetter{
+  position: absolute;
+  left: 0;
+  top : 100px;
+  height: auto;
+  width: 9em;
+  padding: 1em;
+  border: .5em solid wheat;
+  background: #1E1E1E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.close-manualSetter{
+  position: absolute;
+  top : -40px;
+  right: -22px;
+  width: 1e m;
+}

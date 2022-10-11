@@ -1,0 +1,87 @@
+/************************************************************************************************/
+/*    _____               _                  _______         _  _         _          __         */
+/*   / ____|             | |                |__   __|       (_)| |       | |        / _|        */
+/*  | |  __   __ _   ___ | |__    __ _  ______ | |__      __ _ | |_  ___ | |__     | |_  _ __   */
+/*  | | |_ | / _` | / __|| '_ \  / _` ||______|| |\ \ /\ / /| || __|/ __|| '_ \    |  _|| '__|  */
+/*  | |__| || (_| || (__ | | | || (_| |        | | \ V  V / | || |_| (__ | | | | _ | |  | |     */
+/*   \_____| \__,_| \___||_| |_| \__,_|        |_|  \_/\_/  |_| \__|\___||_| |_|(_)|_|  |_|     */
+/*                                                                                              */
+/*    By Docomiot   ~/client/src/styles/twitchEmbed.css          06/11/2021                     */
+/*                                                                                              */
+/************************************************************************************************/
+
+/* Twitch embed */
+.twitchembed-container {
+    width: 100%;
+    height: 100%;
+  }
+  #twitch-embed {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Utils button */
+  .utils-button {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    position: relative;
+    height: fit-content;
+    width: calc(100% - 1em);
+    color: #727272;
+    cursor: pointer;
+    border-radius: 0.3em;
+  }
+  .utils-button > img {
+    height: 1em;
+    width: auto;
+    margin-right: 0.5em;
+    filter: invert(100%);
+  }
+  /* .utils-button:hover,
+  .utils-button.selected {
+    background-color: #ffffff;
+  } */
+  .disable {
+    visibility: hidden;
+  }
+  
+  /* Popup message */
+  .popup-message-container {
+    position: fixed;
+    z-index: 20;
+    padding: 0%;
+    margin: 0%;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000bb;
+  }
+  .popup-message {
+    background-color: #595959;
+    max-width: 60%;
+    border-radius: 1em;
+    font-size: xx-large;
+    padding: 1em 2em 1em 2em;
+  }
+  .popup-message > .message {
+    margin-bottom: 2em;
+  }
+  
+  .popup-message > .options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .popup-message > .options > .option-button {
+    border-radius: 0.5em;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    margin: 0.25em;
+    cursor: pointer;
+    color: black;
+  }

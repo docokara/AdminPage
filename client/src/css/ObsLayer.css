@@ -1,0 +1,140 @@
+.ObsLayer * {
+  user-select: none;
+}
+.ObsLayer {
+  width: 100vw;
+  height: 100vh;
+}
+
+.addDiv {
+  background: brown;
+  margin: 1em;
+}
+.addDiv {
+  height: fit-content;
+}
+.parameter-nav {
+  position: absolute;
+  margin-top: 7em ;
+  display: flex;
+  flex-direction: column;
+  background: #474747;
+  height: fit-content;
+  width: 5%;
+  height: 100%;
+}
+
+/********************************ADD LAYER IMG****************************************/
+.addItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.addItem > h1 {
+  color: #727272;
+  font-size: 2em;
+}
+.addBackground:hover,
+.addLayer:hover,
+.addItem:hover {
+  background: #474747;
+  border-radius: 3em;
+}
+.addItemView {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  left: 5vw;
+  height: 200px;
+  width: 200px;
+  background: #ffffff;
+  text-align: center;
+}
+/********************************CARD****************************************/
+.resizeMe0 {
+  background: green;
+  position: absolute;
+  cursor: pointer;
+}
+.position0 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.resizer0 {
+  background: white;
+  position: inherit;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #4286f4;
+  border-radius: 50%;
+}
+.resizer0.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize;
+}
+.resizer0.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+.resizer0.bot-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+.resizer0.bot-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+/********************************LAYERS VIEW****************************************/
+.layers {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #474747;
+  width: 20%;
+  height: 100vh;
+  padding: 0.3em;
+}
+*[class^="layerItem"] {
+    text-align: center;
+    background: #252525;
+    border-radius: 0.3em;
+    margin: 0.4em;
+}
+.layersItems {
+    overflow-y: scroll;
+    width: 100%;
+    border: solid 2px #252525;
+}
+.layersItems,
+.ParamLayer{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    border : solid 2px #252525;
+}
+.ParamLayer{
+    height: 40%;
+}
+.layersItems {
+  height: 60%;
+}
+*[class^="LayerNumber"]{
+    background: #333333;
+    border-radius: 3em;
+    margin: 1em;
+}

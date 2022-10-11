@@ -1,0 +1,103 @@
+/************************************************************************************************/
+/*    _____               _                  _______         _  _         _          __         */
+/*   / ____|             | |                |__   __|       (_)| |       | |        / _|        */
+/*  | |  __   __ _   ___ | |__    __ _  ______ | |__      __ _ | |_  ___ | |__     | |_  _ __   */
+/*  | | |_ | / _` | / __|| '_ \  / _` ||______|| |\ \ /\ / /| || __|/ __|| '_ \    |  _|| '__|  */
+/*  | |__| || (_| || (__ | | | || (_| |        | | \ V  V / | || |_| (__ | | | | _ | |  | |     */
+/*   \_____| \__,_| \___||_| |_| \__,_|        |_|  \_/\_/  |_| \__|\___||_| |_|(_)|_|  |_|     */
+/*                                                                                              */
+/*    By Docomiot   ~/client/src/styles/cardeditorlayer.css             09/11/2021              */
+/*                                                                                              */
+/************************************************************************************************/
+
+.cardlayereditor-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+*[class^='resizable'] {
+  box-sizing: border-box;
+}
+
+/* sidebar */
+.params-side {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 60%;
+  margin: 0.5em;
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+  height: calc(100% - 4em);
+  width: calc(30% - 1em);
+  background-color: #585858;
+  border-radius: 0.5em;
+}
+
+.param-side-layerItems,
+.param-side-modifierItem{
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+  border-radius: .3em;
+  margin: 1.4em .4em ;
+
+}
+
+
+/* header */
+.add-header {
+  position: absolute;
+  margin: 0.5em;
+  right: 0%;
+  top: 0%;
+  height: 15%;
+  width: calc(70% - 3em);
+  background-color: #585858;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+/* layers editor */
+.layers-editor {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  height: 700px;
+  width: 500px;
+  background-color: #585858;
+}
+
+/* Layer Page */
+.layer-Modifiers{
+  display: flex;
+  flex-direction: column;
+}
+.layer-Modifiers > input{
+  width: fit-content;
+
+}
+*[class^='layerItem']{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; 
+  padding: .4em;
+  text-align: center;
+  border-top: 3px solid #474747;
+}
+*[class^='layerItem'] > img{
+  width: 2em;
+  z-index: 100;
+}
+*[class^='layerItem']:hover{
+  background: #474747;
+  border-radius: 0 0 .4em .4em ;
+}
+.isModified{
+  background:#474747 ;
+}
